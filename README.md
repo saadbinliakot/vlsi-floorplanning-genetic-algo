@@ -6,7 +6,7 @@ The algorithm aims to find a placement layout that satisfies strict structural c
 
 ---
 
-## 🚀 Optimization Objectives
+## Optimization Objectives
 
 The fitness function evaluates layouts by minimizing or maximizing three key criteria:
 1. **Overlap Minimization (Hard Constraint):** Ensures no two hardware modules share the same physical grid coordinates.
@@ -15,7 +15,7 @@ The fitness function evaluates layouts by minimizing or maximizing three key cri
 
 ---
 
-## 🛠️ Genetic Operations Implemented
+## Genetic Operations Implemented
 
 * **Chromosomal Representation:** Layout structures are encoded as arrays of $(x, y)$ coordinates mapped to specific hardware dimensions.
 * **Selection:** Roulette Wheel Selection (Fitness Proportionate Selection) biased towards layouts with fewer overlaps and shorter wirelengths.
@@ -25,7 +25,7 @@ The fitness function evaluates layouts by minimizing or maximizing three key cri
 
 ---
 
-## 📋 Sample Dataset & Input Format
+## Sample Dataset & Input Format
 
 The script reads the grid restrictions, parses coordinate setups for 6 consecutive population structures, and assigns functional graphs.
 
